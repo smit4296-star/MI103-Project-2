@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Anton, sans-serif;
     margin: 0;
     padding: 0;
     background: #111;
@@ -13,9 +13,22 @@ header {
 }
 
 section {
+    font-size: 1.6rem;
     margin: 20px auto;
     padding: 20px;
     width: 80%;
     background: #1c1c1c;
     border-radius: 10px;
+}
+/* Individual section background colors */
+#jotaro {
+    background-color: #2c3e50; /* dark navy */
+}
+
+#pain {
+    background-color: #c0392b; /* deep red */
+}
+
+#erwin {
+    background-color: #d4ac0d; /* gold */
 }
